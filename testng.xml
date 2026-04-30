@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Uber Automation Suite" 
+       parallel="tests" 
+       thread-count="3"
+       verbose="1">
+
+    <!-- Login Tests - Chrome -->
+    <test name="Login Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.uberframework.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Login Tests - Firefox -->
+    <test name="Login Tests - Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.uberframework.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Login Tests - Edge -->
+    <test name="Login Tests - Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.uberframework.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Book Ride Tests - Chrome -->
+    <test name="Book Ride Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.uberframework.tests.BookRideTest"/>
+        </classes>
+    </test>
+
+    <!-- Payment Tests - Chrome -->
+    <test name="Payment Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.uberframework.tests.PaymentTest"/>
+        </classes>
+    </test>
+
+</suite>

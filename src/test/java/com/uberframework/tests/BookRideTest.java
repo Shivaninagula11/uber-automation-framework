@@ -27,9 +27,8 @@ public class BookRideTest extends BaseTest {
         bookRidePage = new BookRidePage(driver);
 
         // Login before each test
-        loginPage.login(
-            ConfigReader.getEmail(),
-            ConfigReader.getPassword());
+        loginPage.enterCredentialAndContinue(
+        	    ConfigReader.getEmail());
     }
 
     @Test(priority = 1,

@@ -1,0 +1,4 @@
+com\uberframework\tests\LoginTest.class
+com\uberframework\tests\BookRideTest.class
+com\uberframework\base\BaseTest.class
+com\uberframework\tests\PaymentTest.class

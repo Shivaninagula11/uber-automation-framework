@@ -1,5 +1,5 @@
 package com.uberframework.base;
-
+import java.time.Duration;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -41,7 +41,9 @@ public class BaseTest {
     public void setUp(@Optional("chrome") String browser) {
         driver = DriverFactory.initDriver(browser);
         driver.get(ConfigReader.getUrl());
-    }
+        // Wait for page to load
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+        }
 
     // Runs after each test method
     @AfterMethod

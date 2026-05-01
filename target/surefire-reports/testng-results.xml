@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-30T21:19:26 CDT" name="Surefire suite" finished-at="2026-04-30T21:20:05 CDT" duration-ms="38510">
+    <groups>
+    </groups>
+    <test started-at="2026-04-30T21:19:26 CDT" name="Surefire test" finished-at="2026-04-30T21:20:05 CDT" duration-ms="38510">
+      <class name="com.uberframework.tests.LoginTest">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:19:25 CDT" name="setUpReport" finished-at="2026-04-30T21:19:26 CDT" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:19:26 CDT" name="setUp" finished-at="2026-04-30T21:19:37 CDT" duration-ms="11100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:19:37 CDT" name="setUpPage" finished-at="2026-04-30T21:19:37 CDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testCookieBasedLogin()[pri:6, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:19:37 CDT" name="testCookieBasedLogin" description="Verify cookie login works" finished-at="2026-04-30T21:20:04 CDT" duration-ms="26635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCookieBasedLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:20:04 CDT" name="tearDown" finished-at="2026-04-30T21:20:05 CDT" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCookieBasedLogin status=SUCCESS method=LoginTest.testCookieBasedLogin()[pri:6, instance:com.uberframework.tests.LoginTest@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.uberframework.tests.LoginTest@54c5a2ff]" started-at="2026-04-30T21:20:05 CDT" name="tearDownReport" finished-at="2026-04-30T21:20:05 CDT" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.uberframework.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -24,9 +24,8 @@ public class PaymentTest extends BaseTest {
         paymentPage = new PaymentPage(driver);
 
         // Login before each test
-        loginPage.login(
-            ConfigReader.getEmail(),
-            ConfigReader.getPassword());
+        loginPage.enterCredentialAndContinue(
+        	    ConfigReader.getEmail());
 
         // Navigate to payment section
         paymentPage.clickPaymentMenu();
